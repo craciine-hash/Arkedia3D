@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARKEDIA 3D | Agence de Numérisation LiDAR & Jumeaux Numériques Abidjan</title>
+    
+    <!-- Polices Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icônes FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Feuille de style externe -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-cube"></i> ARKEDIA<span>3D</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#technology">Technologie</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#portfolio">Réalisations</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#contact" class="cta-header">Devis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION (AVEC VIDEO) -->
+    <section id="hero">
+        <!-- 
+           Vidéo d'arrière-plan.
+           Assurez-vous que le fichier "scan-video.mp4.mp4" est dans le même dossier.
+        -->
+        <video autoplay muted loop playsinline poster="https://placehold.co/1920x1080/050d1a/00F5FF?text=Chargement+Video...">
+            <source src="scan-video.mp4.mp4" type="video/mp4">
+            <!-- Fallback image si la vidéo ne charge pas -->
+            <img src="https://placehold.co/1920x1080/050d1a/00F5FF?text=Background+Image" alt="Background">
+        </video>
+        
+        <!-- Le contenu sécurisé au dessus -->
+        <div class="hero-content">
+            <h1>NE MONTREZ PLUS DES PHOTOS. <br><span class="text-accent">TÉLÉPORTEZ VOS CLIENTS.</span></h1>
+            <h2>La première agence de numérisation LiDAR 8K en Côte d'Ivoire. Nous créons le Jumeau Numérique de vos espaces pour l'Immobilier, le BTP et l'Industrie.</h2>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">Demander un Devis</a>
+                <a href="#portfolio" class="btn btn-secondary"><i class="fa-solid fa-play"></i> Voir nos démos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST BAR (Section 2) -->
+    <section id="partners">
+        <div class="trust-title">Technologies Partenaires</div>
+        <div class="logos-container">
+            <div class="partner-logo"><i class="fa-solid fa-cube"></i> REALSEE</div>
+            <div class="partner-logo"><i class="fa-brands fa-google"></i> Street View</div>
+            <div class="partner-logo"><i class="fa-brands fa-meta"></i> META Quest</div>
+            <div class="partner-logo"><i class="fa-solid fa-building"></i> AUTODESK</div>
+        </div>
+    </section>
+
+    <!-- TECHNOLOGY SECTION (Section 3 - AVEC EFFET LASER MAINTENANT) -->
+    <section id="technology">
+        <!-- La ligne Laser a été déplacée ici pour s'activer après la section 2 -->
+        <div class="scanner-line"></div>
+
+        <div class="tech-text">
+            <h3>POURQUOI LE LIDAR <span class="text-accent">ARKEDIA</span> CHANGE TOUT ?</h3>
+            <p>Contrairement à la photo 360° classique qui déforme la réalité, nous utilisons la technologie laser <strong>LiDAR</strong>. Nous ne capturons pas seulement une image, nous scannons la <strong>structure</strong> et le <strong>volume</strong> de votre bâtiment au millimètre près.</p>
+            <p>C'est la différence entre un simple dessin et un jumeau numérique exploitable techniquement.</p>
+            <a href="#solutions" class="btn btn-primary">Découvrir les usages</a>
+        </div>
+
+        <div class="comparison-table">
+            <div class="table-row table-header">
+                <div class="col-feature">Fonctionnalité</div>
+                <div class="col-classic">Photo 360</div>
+                <div class="col-arkedia">ARKEDIA 3D</div>
+            </div>
+            <div class="table-row">
+                <div class="col-feature">Précision visuelle</div>
+                <div class="col-classic"><i class="fa-solid fa-xmark"></i> Déformé</div>
+                <div class="col-arkedia"><i class="fa-solid fa-check"></i> 8K Réel</div>
+            </div>
+            <div class="table-row">
+                <div class="col-feature">Prise de mesures</div>
+                <div class="col-classic"><i class="fa-solid fa-xmark"></i> Impossible</div>
+                <div class="col-arkedia"><i class="fa-solid fa-check"></i> Millimétrique</div>
+            </div>
+            <div class="table-row">
+                <div class="col-feature">Plans Architectes</div>
+                <div class="col-classic"><i class="fa-solid fa-xmark"></i> Non</div>
+                <div class="col-arkedia"><i class="fa-solid fa-check"></i> Inclus</div>
+            </div>
+            <div class="table-row">
+                <div class="col-feature">Compatible VR</div>
+                <div class="col-classic"><i class="fa-solid fa-xmark"></i> Faible</div>
+                <div class="col-arkedia"><i class="fa-solid fa-check"></i> Natif</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUTIONS SECTION -->
+    <section id="solutions">
+        <h3 class="section-title">NOS SOLUTIONS</h3>
+        <p>Des packs adaptés à chaque secteur d'activité ivoirien.</p>
+
+        <div class="cards-grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-icon"><i class="fa-solid fa-house-chimney"></i></div>
+                <h4>IMMOBILIER & PRESTIGE</h4>
+                <p>Pour vendre et louer plus vite à la Diaspora. Visites 8K immersives avec plans métrés inclus pour rassurer les investisseurs.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-icon"><i class="fa-solid fa-helmet-safety"></i></div>
+                <h4>BTP & ARCHITECTURE</h4>
+                <p>Relevés de l'existant et suivi de chantier à distance. Export de nuages de points (.e57) pour vos logiciels CAD/BIM.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                <h4>GOOGLE STREET VIEW</h4>
+                <p>Boostez la visibilité de votre commerce (Maquis, École, Showroom) à vie sur Google Maps et améliorez votre SEO local.</p>
+            </div>
+            <!-- Card 4 -->
+            <div class="card">
+                <div class="card-icon"><i class="fa-solid fa-bus"></i></div>
+                <h4>TRANSPORT & MOBILITÉ</h4>
+                <p>Scans intérieurs de Bus, Vans et Showrooms Auto. Prouvez le confort et l'espace à vos passagers avant l'achat.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio">
+        <h3 class="section-title">EXPLOREZ NOS RÉALISATIONS</h3>
+        
+        <div class="portfolio-slider">
+            <!-- Demo 1 -->
+            <div class="portfolio-item">
+                <img src="https://placehold.co/600x400/112240/00F5FF?text=DEMO+VILLA+RIVIERA" alt="Demo Villa" style="width:100%; height:100%; object-fit:cover; opacity:0.6;">
+                <div class="portfolio-label">VILLA TÉMOIN - COCODY</div>
+            </div>
+            <!-- Demo 2 -->
+            <div class="portfolio-item">
+                <img src="https://placehold.co/600x400/112240/00F5FF?text=DEMO+CHANTIER+BTP" alt="Demo Chantier" style="width:100%; height:100%; object-fit:cover; opacity:0.6;">
+                <div class="portfolio-label">SUIVI CHANTIER - PLATEAU</div>
+            </div>
+        </div>
+        <div style="margin-top:30px;">
+            <p style="color:var(--text-secondary); font-size:0.9rem;">* Cliquez pour interagir avec les modèles 3D</p>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="about-text">
+            <h3>NOUS TRANSFORMONS LE RÉEL EN <span class="text-accent">PATRIMOINE NUMÉRIQUE</span>.</h3>
+            <p>Basée à Abidjan, <strong>ARKEDIA 3D</strong> supprime la distance. Que vous soyez un promoteur, un architecte ou un hôtelier, nous figeons la réalité avec une précision absolue pour sécuriser vos affaires.</p>
+            <p>Nous ne sommes pas des photographes. Nous sommes des experts en digitalisation spatiale équipés des dernières technologies LiDAR mondiales.</p>
+            <a href="#contact" class="btn btn-primary">Rencontrer l'équipe</a>
+        </div>
+        <div class="about-img">
+            <img src="https://placehold.co/600x600/0A192F/00F5FF?text=Fondateur+avec+Realsee+Galois" alt="Fondateur ARKEDIA 3D">
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h3>PARLEZ-NOUS DE VOTRE PROJET</h3>
+        <p>Réponse sous 24h. Devis gratuit.</p>
+        
+        <form>
+            <div class="full-width">
+                <label>Nom & Prénom</label>
+                <input type="text" placeholder="Votre nom complet">
+            </div>
+            
+            <div>
+                <label>Entreprise</label>
+                <input type="text" placeholder="Nom de votre société">
+            </div>
+            
+            <div>
+                <label>Téléphone</label>
+                <input type="tel" placeholder="+225 ...">
+            </div>
+
+            <div>
+                <label>Type de Projet</label>
+                <select>
+                    <option>Immobilier & Vente</option>
+                    <option>BTP & Architecture</option>
+                    <option>Commerce (Google Maps)</option>
+                    <option>Transport</option>
+                    <option>Autre</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Localisation</label>
+                <input type="text" placeholder="Ex: Cocody, Zone 4...">
+            </div>
+
+            <div class="full-width">
+                <label>Message</label>
+                <textarea rows="4" placeholder="Décrivez votre besoin..."></textarea>
+            </div>
+
+            <button type="submit" class="contact-btn full-width">ENVOYER LA DEMANDE</button>
+        </form>
+        
+        <div style="margin-top: 20px; text-align: center;">
+            <p style="font-size: 0.9rem;"><i class="fa-brands fa-whatsapp" style="color: #25D366;"></i> Contact rapide WhatsApp : <strong>+225 XX XX XX XX XX</strong></p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <a href="#" class="footer-logo"><i class="fa-solid fa-cube"></i> ARKEDIA<span>3D</span></a>
+                <p>Donnez une nouvelle dimension à vos espaces.</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> Abidjan, Côte d'Ivoire</li>
+                    <li><i class="fa-solid fa-envelope"></i> contact@arkedia3d.ci</li>
+                    <li><i class="fa-solid fa-phone"></i> +225 XX XX XX XX</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Liens Rapides</h4>
+                <ul>
+                    <li><a href="#hero">Accueil</a></li>
+                    <li><a href="#solutions">Solutions</a></li>
+                    <li><a href="#portfolio">Démos</a></li>
+                    <li><a href="#contact">Devis</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Suivez-nous</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 ARKEDIA 3D - Tous droits réservés.
+        </div>
+    </footer>
+
+</body>
+</html>
